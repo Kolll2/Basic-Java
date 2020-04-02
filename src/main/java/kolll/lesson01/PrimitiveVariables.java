@@ -7,7 +7,7 @@ package kolll.lesson01;
  * Размеры примитивных переменных
  *  byte(1), short(2), int(4), long(8),
  *  float(), double(),
- *  boolean()
+ *  boolean() 
  */
 
 public class PrimitiveVariables {

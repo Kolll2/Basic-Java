@@ -17,6 +17,30 @@ public class PrimitiveVariables {
 
         printInteger();
 
+        printBoolean();
+
+        printFloat();
+
+        printDouble();
+
+    }
+
+    private static void printFloat() {
+        float a = 0.123456789f;
+        System.out.println("float a = > " + a);
+
+    }
+
+    private static void printDouble() {
+        double a = 0.1234567890123456789d;
+        System.out.println("double a = > " + a);
+    }
+
+    private static void printBoolean() {
+        boolean a = true;
+        System.out.println("a => " + a);
+        boolean b = true;
+        System.out.println("b => " + b);
     }
 
     private static void printInteger() {

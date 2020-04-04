@@ -3,7 +3,7 @@ package kolll.lesson01;
 public class BitwiseOperation {
     public static void main(String[] args) {
 
-       // bitwiseLogicalOperators();
+        bitwiseLogicalOperators();
 
         bitwiseShifts();
 

@@ -10,6 +10,12 @@ public class Main {
 
         //create in heap class FirstClass and 
         firstClass = new FirstClass();
+
+        System.out.println(firstClass);
+
+        System.out.println(firstClass.size);
+
+        firstClass.printBinary(11);
     }
 
 }

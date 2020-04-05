@@ -13,3 +13,4 @@ gen
 !/.idea/compiler.xml
 /target/
 /.idea/
+*.class

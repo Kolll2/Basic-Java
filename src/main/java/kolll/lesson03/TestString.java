@@ -1,10 +1,17 @@
 package kolll.lesson03;
 
+import java.util.HashMap;
+
 public class TestString {
 
     public static void main(String[] args) {
         String s = "Hello";
         String t = new String(s);
+        int i = 0;
+
+        HashMap<Object, String > hashMap;
+        int[] im;
+
 
         System.out.println(s);
         System.out.println(t);
@@ -15,6 +22,16 @@ public class TestString {
         if ("Hello" == s) System.out.println("four");
         if ("Hello" == t) System.out.println("five");
     }
+
+    /**
+     * Object
+     *  == and equals()
+     *  hashCode();
+     *  array[], arrayArray[][]
+     *  array primitive variables is Object (linked type)
+     *
+     */
+
 
 
 }

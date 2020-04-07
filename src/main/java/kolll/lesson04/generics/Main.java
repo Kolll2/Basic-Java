@@ -13,5 +13,10 @@ package kolll.lesson04.generics;
  */
 public class Main {
     public static void main(String[] args) {
+        GenericExample<Integer> integerGeneric = new GenericExample<Integer>(100);
+        System.out.println(integerGeneric.getValue());
+        GenericExample<String> stringGeneric = new GenericExample<String>("Hello");
+        System.out.println(stringGeneric.getValue());
+
     }
 }

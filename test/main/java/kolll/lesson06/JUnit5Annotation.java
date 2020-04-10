@@ -1,0 +1,19 @@
+package main.java.kolll.lesson06;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
+public class JUnit5Annotation {
+
+    /*
+    Эта аннотация означает, что метод является тестовым методом, не принимающий параметров.
+     */
+    @Test
+    void helloJUnit5(){
+        assertEquals(10, 5+5);
+    }
+
+}

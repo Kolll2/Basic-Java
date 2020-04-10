@@ -16,4 +16,9 @@ public class JUnit5Annotation {
         assertEquals(10, 5+5);
     }
 
+    @ParameterizedTest
+    @ValueSource(strings = {"cali", "bali", "dani"})
+    void endsWithI(String str){
+        assertTrue(str.endsWith("i"));
+    }
 }

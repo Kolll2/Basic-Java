@@ -10,6 +10,8 @@ Java – ОО Язык программирования разработанны
 1995-2014 – приложения для бытовых приборов
 
 Java Source code --> Java Compiler (javac) ==> Java Byte codes (class file)
+Байт код это россыпь классов (файлов) их собирают в jar (архив в которым дежит байт код
+и даполнительная мета информация)
     << Compile-time >>
 Java Byte codes --> Class Loader (Byte code Verifier) <-- Java Class Libraries
                                 | |

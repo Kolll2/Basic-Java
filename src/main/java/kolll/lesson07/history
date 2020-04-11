@@ -1,0 +1,32 @@
+Java – ОО Язык программирования разработанный в 1995 г.
+Изначально – платформа для программирования бытовых приборов
+Компиляция в байт код и исполнения байт кода виртуальной машине
+Встроенный сборщик мусора.
+1995-2000 – скрипты для браузеров
+2000-2005 – приложения для телефонов
+2005-2018 – сервера
+2012-2018 – «конструктор» для DevOps
+
+1995-2014 – приложения для бытовых приборов
+
+Java Source code --> Java Compiler (javac) ==> Java Byte codes (class file)
+    << Compile-time >>
+Java Byte codes --> Class Loader (Byte code Verifier) <-- Java Class Libraries
+                                | |
+                                | |
+                                \ /
+                                \ /
+                        Java Virtual Machine
+              {Java Interpreter  | just in time Compiler (JIT)}
+                    \ \ \ \ \       / / / / /
+                          Runtime System
+                                | |
+                                | |
+                                \ /
+                          Operating System
+                                | |
+                                | |
+                                \ /
+                              Hardware
+
+                             <<Runtime>>

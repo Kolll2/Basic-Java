@@ -1,0 +1,6 @@
+Synopsis [кратко о главном]
+javac [ options ] [ sourcefiles ]
+options
+Command-line options.
+sourcefiles
+One or more source files to be compiled (such as MyClass.java) or processed for annotations (such as MyPackage.MyClass).

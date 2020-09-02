@@ -1,4 +1,4 @@
-package main.java.kolll.lesson06;
+package kolll.lesson06;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;

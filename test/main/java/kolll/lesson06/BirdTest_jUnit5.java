@@ -1,4 +1,4 @@
-package main.java.kolll.lesson06;
+package kolll.lesson06;
 
 import kolll.lesson06.bird.Bird;
 import kolll.lesson06.bird.Crow;

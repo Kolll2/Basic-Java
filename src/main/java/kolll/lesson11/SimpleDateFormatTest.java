@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class SimpleDateFormatTest {
 
-    Random random = new Random();
+    private Random random = new Random();
 
     public static void test1() throws ParseException {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
@@ -20,7 +20,7 @@ public class SimpleDateFormatTest {
         Integer year = random.nextInt(9999);
         Integer mouth = random.nextInt(11) + 1;
         Integer day = getRandomDay(year, mouth);
-        return null;
+        return year + "-" + mouth + "-" + day;
     }
 
     private Integer getRandomDay(Integer year, Integer mouth) {
@@ -42,11 +42,11 @@ public class SimpleDateFormatTest {
         return getRandomFebruaryDay(year);
     }
 
-    private Integer getRandomFebruaryDay (Integer year){
+    private Integer getRandomFebruaryDay(Integer year) {
 
         if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
             return random.nextInt(28) + 1;
         }
-        return random.nextInt(27)+1;
+        return random.nextInt(27) + 1;
     }
 }
